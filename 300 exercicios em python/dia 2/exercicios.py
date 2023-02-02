@@ -1,5 +1,4 @@
-#01/02 exercicios do 59 ao
-
+#01/02 exercicios do 59 ao 101 ( NIVEL FACIL )
 #59 - Crie uma funcao com tres parametros, sendo dois deles com dados/valores padrao, alterando o terceiro deles contornando o paradigmas da justaposicao de argumentos
 
 def pessoa1(nome,idade = 18,funcao = 'desenvolvedor'):
@@ -599,3 +598,35 @@ except:
 print(calcula_nota(nota))
 
 ########################################--FIM--################################################
+
+#101 - crie uma estrutura molde *( orientada a objetos) para cadastro de veiculos, tendo como caracteristicas que os descrevem sua marca, modelo, ano cor e valor,
+# cadastre ao menos tres veiculos revelando seu numero, identificador de objeto alocado em memoria, assim como o retorno esperado pelo usuario quando o mesmo consultar tal veiculo
+class Carro:
+    def __init__(self, marca = None, modelo = None, ano = None,cor = None, valor = None):
+        self.marca = marca
+        self.modelo = modelo
+        self.ano = ano
+        self.cor = cor
+        self.valor = valor
+
+    def descricao(self):
+        descricao_carro = f'{self.marca},{self.modelo},{self.ano},{self.cor},{self.valor},'
+        return descricao_carro
+
+carro1 = Carro('Audi','rs3','2020','preto','R$ 210.000')
+carro2 = Carro('BMW','718i','2020','branca','R$ 680.000')
+carro3 = Carro('Honda','civic SI','2015','preto','R$ 110.000')
+
+print(carro1)
+print(carro2)
+print(carro3)
+
+print(carro1.descricao())
+print(carro2.descricao())
+print(carro3.descricao())
+########################################--FIM--################################################
+
+########################################--FIM--##################################### 
+########################################-- DO --##################################### 
+########################################--DIA2--###################################
+#                                    01/02 - 17:30

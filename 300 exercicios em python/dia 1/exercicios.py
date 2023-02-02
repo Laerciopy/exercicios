@@ -1,4 +1,4 @@
-#31/1 - 20:24 exercicios do 1 ao 58
+#31/1 - 20:24 exercicios do 1 ao 58 ( NIVEL FACIL )
 #Aqui vou resolver os primeiros exercicios do livro 300 exercicios em python, conforme for passando os dias vou atualizando o projeto.
 
 
